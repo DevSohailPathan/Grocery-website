@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: auto;
+        }
+
+        .main-container {
+            height: 100vh;
+            width: 100vw;
+            background-color: yellowgreen;
+        }
+
+        /* first-main-page */
+        .first-main {
+            height: 100%;
+            width: 100%;
+            background-color: rgb(166, 147, 147);
+        }
+
+        .first-header {
+            height: 10%;
+            width: 100%;
+            background-color: wheat;
+        }
+
+        .shop-img {
+            height: 70%;
+            width: 100%;
+            background-color: antiquewhite;
+            background-image: url(https://images.unsplash.com/photo-1578916171728-46686eac8d58?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z3JvY2VyeSUyMHN0b3JlfGVufDB8fDB8fHww);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .shop-decoration {
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.353);
+        }
+
+        .first-footer {
+            height: 20%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .variety {
+            height: 80%;
+            border-radius: 100%;
+            width: 9%;
+            box-shadow: 0px 4px 30px 0px rgba(0, 55, 255, 0.274);
+            border: 1px solid gainsboro;
+        }
+
+        .colgate {
+            background-color: antiquewhite;
+        }
+
+        .surfexcel {
+            background-color: yellowgreen;
+        }
+
+        .foog {
+            background-color: white;
+        }
+
+        .haldiram {
+            background-color: turquoise;
+        }
+
+        .fortune {
+            background-color: rgb(51, 58, 57);
+        }
+
+        .amul {
+            background-color: yellowgreen;
+        }
+
+        .parle {
+            background-color: white;
+        }
+
+        .brook {
+            background-color: turquoise;
+        }
+
+        /* variety-img */
+        .variety-img {
+            height: 100%;
+            width: 100%;
+            border-radius: 100%;
+        }
+
+        /* first page media */
+        @media (min-width: 300px) and (max-width:450px) {
+            body {
+                margin: 0;
+                padding: 0;
+                overflow: auto;
+            }
+
+            .main-container {
+                height: 100vh;
+                width: 100vw;
+                background-color: yellowgreen;
+            }
+
+            /* first-main-page */
+            .first-main {
+                height: 100%;
+                width: 100%;
+                background-color: rgb(166, 147, 147);
+            }
+
+            .first-header {
+                height: 10%;
+                width: 100%;
+                background-color: wheat;
+            }
+
+            .shop-img {
+                height: 75%;
+                width: 100%;
+                background-color: antiquewhite;
+                background-image: url(https://images.unsplash.com/photo-1578916171728-46686eac8d58?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z3JvY2VyeSUyMHN0b3JlfGVufDB8fDB8fHww);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .shop-decoration {
+                height: 100%;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.353);
+            }
+
+            .first-footer {
+                height: 15%;
+                width: 100%;
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+            .variety {
+                height: 65%;
+                border-radius: 100%;
+                width: 22%;
+                box-shadow: 0px 4px 30px 0px rgba(0, 55, 255, 0.234);
+                border: 1px solid gainsboro;
+            }
+
+            .colgate {
+                background-color: antiquewhite;
+            }
+
+            .surfexcel {
+                background-color: yellowgreen;
+            }
+
+            .foog {
+                background-color: white;
+            }
+
+            .haldiram {
+                background-color: turquoise;
+            }
+
+            .fortune {
+                background-color: rgb(51, 58, 57);
+                display: none;
+            }
+
+            .amul {
+                background-color: yellowgreen;
+                display: none;
+            }
+
+            .parle {
+                background-color: white;
+                display: none;
+            }
+
+            .brook {
+                background-color: turquoise;
+                display: none;
+            }
+
+            /* variety-img */
+            .variety-img {
+                height: 100%;
+                width: 100%;
+                border-radius: 100%;
+            }
+        }
+
+        /* second  page */
+        .second-main {
+            height: 100%;
+            width: 100%;
+            background-color: rgb(78, 48, 48);
+        }
+
+        .second-header {
+            height: 10%;
+            width: 100%;
+            background-color: turquoise;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .caregory-chart {
+            height: 90%;
+            width: 100%;
+            background-color: rgb(107, 64, 224);
+        }
+
+        /* third - page */
+        .third-main {
+
+            height: 100%;
+            width: 100%;
+            background-color: rgb(78, 48, 48);
+        }
+
+        /* big img */
+
+        .big-img-one {
+            height: 30%;
+            width: 100%;
+            background-color: rgb(184, 184, 78);
+        }
+
+        /* third header */
+        .third-header {
+            height: 8%;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .third-product-card {
+            height: 62%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .td-first {
+            height: 95%;
+            width: 20%;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+
+        }
+
+        .card-one {
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        .card-two {
+            background-color: rgba(61, 1, 1, 0);
+        }
+
+        .card-three {
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        .card-four {
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        .third-card-img-one {
+            height: 45%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.2);
+            border-top: 2px solid rgb(0, 140, 255);
+            border-radius: 10px;
+
+        }
+
+        .third-card-img-two {
+            height: 45%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.2);
+            border-bottom: 2px solid rgb(0, 140, 255);
+            border-radius: 10px;
+        }
+
+        .third-card-img {
+            height: 80%;
+            width: 80%;
+        }
+
+        .long-img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media (min-width:300px) and (max-width:450px) {
+
+            /* third - page */
+            .third-main {
+
+                height: 200vh;
+                width: 100vw;
+                background-color: rgb(78, 48, 48);
+            }
+
+            /* big img */
+
+            .big-img-one {
+                height: 10%;
+                width: 100%;
+                background-color: rgb(184, 184, 78);
+            }
+
+            /* third header */
+            .third-header {
+                height: 5%;
+                width: 100%;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .third-product-card {
+                height: 85%;
+                width: 100%;
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+            .td-first {
+                height: 100%;
+                width: 70%;
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: column;
+
+            }
+
+            .card-one {
+                background-color: rgba(255, 255, 255, 0);
+            }
+
+            .card-two {
+                background-color: rgba(61, 1, 1, 0);
+            }
+
+            .card-three {
+                background-color: rgba(255, 255, 255, 0);
+            }
+
+            .card-four {
+                background-color: rgba(255, 255, 255, 0);
+                display: none;
+            }
+
+            .third-card-img-one {
+                height: 50%;
+                width: 100%;
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.2);
+                border-top: none;
+                border-radius: 10px;
+
+            }
+
+            .third-card-img-two {
+                height: 45%;
+                width: 100%;
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.2);
+                border-bottom: none;
+                border-radius: 10px;
+            }
+
+            .third-card-img {
+                height: 100%;
+                width: 90%;
+            }
+
+            .long-img {
+                height: 100%;
+                width: 100%;
+            }
+
+        }
+
+        /* fourth page */
+        .fourth-main {
+            height: 90%;
+            width: 100%;
+            background-color: wheat;
+        }
+
+        .fourth-header {
+            height: 10%;
+            width: 100%;
+            background-color: rgb(211, 235, 235);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fourth-product-card {
+            height: 90%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .fourth-first-row {
+            height: 45%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .fourth-second-row {
+            height: 45%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .daily-needs-product {
+            height: 90%;
+            width: 25%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.216);
+            border-bottom: 2px solid rgb(0, 140, 255);
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* fourth card img */
+        .long-imgg {
+            height: 90%;
+            width: 90%;
+
+        }
+        @media (min-width:300px) and (max-width:450px){
+
+        /* fourth page */
+        .fourth-main {
+            height: 90%;
+            width: 100%;
+            background-color: wheat;
+        }
+
+        .fourth-header {
+            height: 10%;
+            width: 100%;
+            background-color: rgb(56, 132, 132);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fourth-product-card {
+            height: 90%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .fourth-first-row {
+            height: 90%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .fourth-second-row {
+            height: 90%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .daily-needs-product {
+            height: 50%;
+            width: 75%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.216);
+            border-bottom: 2px solid rgb(0, 140, 255);
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* fourth card img */
+        .long-imgg {
+            height: 90%;
+            width: 90%;
+
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- first page -->
+    <div class="main-container">
+        <!-- first-main-page -->
+        <div class="first-main">
+            <div class="first-header"></div>
+            <div class="second-header-mobile"></div>
+            <div class="shop-img">
+                <div class="shop-decoration"></div>
+            </div>
+            <!-- footer -->
+            <div class="first-footer">
+                <!-- Variety img -->
+                <div class="variety colgate"><img class="variety-img"
+                        src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/f52e9dee-0865-4847-8beb-853d7b6f8aac-Colgate.jpg"
+                        alt=""></div>
+                <div class="variety surfexcel"><img class="variety-img"
+                        src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/5b6fb9e9-f62f-4909-a58f-567d9fe586f5-Surfexcel.jpg"
+                        alt=""></div>
+                <div class="variety foog"><img class="variety-img"
+                        src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/f8c7d8ab-df5f-4bbf-8466-9c313255ba2b-Fogg.jpg"
+                        alt=""></div>
+                <div class="variety haldiram"><img class="variety-img"
+                        src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/a3669a82-f868-44bb-b7d2-19c6dc6a4cf0-Haldirams.jpg"
+                        alt=""></div>
+                <div class="variety fortune"><img class="variety-img"
+                        src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/37cb9c9b-7724-4cbc-adbc-51ee91ba017e-blob"
+                        alt=""></div>
+                <div class="variety amul"><img class="variety-img"
+                        src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/6bcfd86b-3830-4bfc-8619-986ee84581fc-blob"
+                        alt=""></div>
+                <div class="variety parle"><img class="variety-img"
+                        src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/2286f3cb-335a-4fed-81d8-cf5d946f637b-blob"
+                        alt=""></div>
+                <div class="variety brook"><img class="variety-img"
+                        src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/ff6a598d-abe6-43a8-84ac-8b486833046c-brookbond.jpg"
+                        alt=""></div>
+            </div>
+        </div>
+
+        <!-- second-page -->
+        <div class="second-main">
+            <!-- header -->
+            <div class="second-header">Browse all category</div>
+            <!-- chart -box  -->
+            <div class="caregory-chart"></div>
+        </div>
+
+        <!-- third - page  -->
+        <div class="third-main">
+            <div class="big-img-one"><img class="long-img"
+                    src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/7d26cbfb-6d99-46d8-9406-a5a0c43c5854-pothysnatchiyar.jpeg"
+                    alt=""></div>
+            <div class="third-header">New add</div>
+            <div class="third-product-card">
+                <div class="td-first card-one">
+                    <div class="third-card-img-one"><img class="third-card-img"
+                            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_biscuits-&-namkeens_480_250923.jpg?tr=w-480,q-80"
+                            alt=""></div>
+                    <div class="third-card-img-two"><img class="third-card-img"
+                            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_cleaners_480_250723.jpg?tr=w-480,q-80"
+                            alt=""></div>
+                </div>
+                <div class="td-first card-two">
+                    <div class="third-card-img-one"><img class="third-card-img"
+                            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_breakfast-cereals_480_250923.jpg?tr=w-480,q-80"
+                            alt=""></div>
+                    <div class="third-card-img-two"><img class="third-card-img"
+                            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_detergents-&-fabric-care_480_250723.jpg?tr=w-480,q-80"
+                            alt=""></div>
+                </div>
+                <div class="td-first card-three">
+                    <div class="third-card-img-one"><img class="third-card-img"
+                            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_pasta-sauces-&-more_480_270723.jpg?tr=w-480,q-80"
+                            alt=""></div>
+                    <div class="third-card-img-two"><img class="third-card-img"
+                            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_paper-disposables-&-garbage-bags_480_250723.jpg?tr=w-480,q-80"
+                            alt=""></div>
+                </div>
+                <div class="td-first card-four">
+                    <div class="third-card-img-one"><img class="third-card-img"
+                            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_sweet-cravings_480_250923.jpg?tr=w-480,q-80"
+                            alt=""></div>
+                    <div class="third-card-img-two"><img class="third-card-img"
+                            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_freshner_480_250723.jpg?tr=w-480,q-80"
+                            alt=""></div>
+                </div>
+            </div>
+        </div>
+        <!-- page four -->
+        <div class="fourth-main">
+            <div class="fourth-header">Your Daily Needs</div>
+            <div class="fourth-product-card">
+                <div class="fourth-first-row">
+                    <div class="daily-needs-product"><img class="long-imgg"
+                            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_atta-flour-staplesStorefront_m_480_250323_01.jpg?tr=w-480,q-80"
+                            alt=""></div>
+                    <div class="daily-needs-product"><img class="long-imgg"
+                            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_rice-staplesStorefront_m_480_250323_02.jpg?tr=w-480,q-80"
+                            alt=""></div>
+                    <div class="daily-needs-product"><img class="long-imgg"
+                            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_dals-pulses-staplesStorefront_m_480_250323_03.jpg?tr=w-480,q-80"
+                            alt=""></div>
+                </div>
+
+                <br><br>
+                <div class="fourth-second-row">
+                    <div class="daily-needs-product"><img class="long-imgg"
+                            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_cooking-oils-staplesStorefront_m_480_250323_04.jpg?tr=w-480,q-80"
+                            alt=""></div>
+                    <div class="daily-needs-product"><img class="long-imgg"
+                            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_dry-fruits-staplesStorefront_m_480_250323_05.jpg?tr=w-480,q-80"
+                            alt=""></div>
+                    <div class="daily-needs-product"><img class="long-imgg"
+                            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_salt-staplesStorefront_m_480_250323_06.jpg?tr=w-480,q-80"
+                            alt=""></div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
